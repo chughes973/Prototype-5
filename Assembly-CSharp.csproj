@@ -127,6 +127,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Course Library\Fonts\Exo_2\OFL.txt" />
+    <None Include="Assets\8Bit Music - 062022\Notes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Course Library\Fonts\Oswald\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -825,6 +826,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{2DFD3B7E-B7B9-FD8F-0ED9-17893FF03A5D}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{13A47BAC-D5A5-6F7A-FD9A-A34EB10680C9}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{0E4E89AA-0BA1-2C40-0BF5-9436AA680981}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{FF165939-A1DB-3727-BD14-2BFFD7980F8D}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
