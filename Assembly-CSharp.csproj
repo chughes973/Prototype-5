@@ -755,14 +755,14 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -826,10 +826,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
-      <Project>{2DFD3B7E-B7B9-FD8F-0ED9-17893FF03A5D}</Project>
-      <Name>FMODUnityResonanceEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="FMODUnityEditor.csproj">
       <Project>{13A47BAC-D5A5-6F7A-FD9A-A34EB10680C9}</Project>
       <Name>FMODUnityEditor</Name>
@@ -837,6 +833,10 @@
     <ProjectReference Include="FMODUnity.csproj">
       <Project>{0E4E89AA-0BA1-2C40-0BF5-9436AA680981}</Project>
       <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{2DFD3B7E-B7B9-FD8F-0ED9-17893FF03A5D}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonance.csproj">
       <Project>{FF165939-A1DB-3727-BD14-2BFFD7980F8D}</Project>
